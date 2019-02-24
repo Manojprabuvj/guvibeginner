@@ -2,14 +2,14 @@
 int main()
 {
     int n;
-    scanf("%d",&n);
-    if(n%2==0)
+    scanf("%d",&z);
+    if(z%2==0)
     {
-        printf("%d",n);
+        printf("%d",z);
     }
     else
     {
-        printf("%d",(n-1));
+        printf("%d",(z-1));
     }
     return 0;
 }
